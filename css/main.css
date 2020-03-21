@@ -6,3 +6,7 @@ header, footer {
   background-color: #70ad55;
   color: #fff;
 }
+
+input {
+  border-color: #6e8c62;
+}
