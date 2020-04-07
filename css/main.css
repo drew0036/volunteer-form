@@ -11,6 +11,10 @@ input {
   border-color: #6e8c62;
 }
 
+select {
+  border-color: #6e8c62;
+}
+
 i {
   color: #70ad55;
 }
@@ -21,4 +25,8 @@ hr {
 
 fieldset {
   border: 0;
+}
+
+[type="checkbox"] + label::before {
+  border-color: #6e8c62;
 }
