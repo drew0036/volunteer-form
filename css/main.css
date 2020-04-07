@@ -7,6 +7,10 @@ header, footer {
   color: #fff;
 }
 
+fieldset {
+  border: none;
+}
+
 input {
   border-color: #6e8c62;
 }
@@ -20,11 +24,7 @@ i {
 }
 
 hr {
-  border-color: #70ad55;
-}
-
-fieldset {
-  border: 0;
+  border-top: 1px solid #70ad55;
 }
 
 [type="checkbox"] + label::before {
@@ -43,4 +43,10 @@ textarea {
 .btn:hover {
   background-color: #70ad55;
   border-color: #70ad55;
+}
+
+@media only screen and (min-width: 38em) {
+  .fish {
+    padding-left: 20px;
+  }
 }
