@@ -19,54 +19,55 @@
     </div>
   </header>
   <form class="push-0" method="POST" action="https://formspree.io/drew0036@algonquinlive.com">
-    <div class="grid island">
-      <div class="unit">
-        <fieldset>
-          <legend class="pad-b pad-t-2 bold giga">Personal details</legend>
-          <div class="grid kilo pad-t-1-2">
-            <div class="unit xs-1 push m-1-2 l-1-2">
-              <label class="push-1-8" for="name">Full name</label>
-              <input id="name" name="name" required>
-              <p class="italic micro push-0">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
-            </div>
-            <div class="unit xs-1 push m-1-2 l-1-2">
-              <label class="push-1-8" for="nickname">What should we call you?</label>
-              <input id="nickname" name="name" required>
-              <p class="italic micro push-0">What all your friends call you, e.g. “Liz”.</p>
-            </div>
-            <div class="unit xs-1 push m-1-2 l-1-2">
-              <label class="push-1-8" for="birthday">Date of birth</label>
-              <input id="birthday" type="date" required>
-            </div>
-            <div class="unit xs-1 push m-1-2 l-1-2 fish">
-              <label for="size">T-shirt size</label>
-              <select id="size" name="size">
-                <option value="">Select a t-shirt size</option>
-                <option>Fitted: XS</option>
-                <option>Fitted: S</option>
-                <option>Fitted: M</option>
-                <option>Fitted: L</option>
-                <option>Fitted: XL</option>
-                <option>Straight-cut: XS</option>
-                <option>Straight-cut: S</option>
-                <option>Straight-cut: M</option>
-                <option>Straight-cut: L</option>
-                <option>Straight-cut: XL</option>
-              </select>
-            </div>
-            <div class="unit xs-1 s-1 push m-1-2">
-              <label class="push-1-8" for="email">Email</label>
-              <input id="email" type="email" name="email" required>
-            </div>
-            <div class="unit xs-1 s-1 push-2 m-1-2 fish">
-              <label for="phone">Phone number <i>(optional)</i></label>
-              <input id="phone" type="tel" name="phone">
-            </div>
-          </div>
-          <hr>
-        </fieldset>
+
+    <fieldset>
+      <legend class="pad-b pad-t-2 bold giga">Personal details</legend>
+
+      <div class="grid kilo pad-t-1-2">
+        <div class="unit xs-1 push m-1-2 l-1-2">
+          <label class="push-1-8" for="name">Full name</label>
+          <input id="name" name="name" required>
+          <p class="italic micro push-0">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+        </div>
+        <div class="unit xs-1 push m-1-2 l-1-2">
+          <label class="push-1-8" for="nickname">What should we call you?</label>
+          <input id="nickname" name="name" required>
+          <p class="italic micro push-0">What all your friends call you, e.g. “Liz”.</p>
+        </div>
+        <div class="unit xs-1 push m-1-2 l-1-2">
+          <label class="push-1-8" for="birthday">Date of birth</label>
+          <input id="birthday" type="date" required>
+        </div>
+        <div class="unit push xs-1 s-1 m-1-2 fish">
+          <label for="subject">T-shirt size</label>
+          <select id="subject" name="subject">
+            <option value="">Select a t-shirt size</option>
+            <option>Fitted: XS</option>
+            <option>Fitted: S</option>
+            <option>Fitted: M</option>
+            <option>Fitted: L</option>
+            <option>Fitted: XL</option>
+            <option>Straight-cut: XS</option>
+            <option>Straight-cut: S</option>
+            <option>Straight-cut: M</option>
+            <option>Straight-cut: L</option>
+            <option>Straight-cut: XL</option>
+          </select>
+        </div>
+
+        <div class="unit xs-1 s-1 push m-1-2">
+          <label class="push-1-8" for="email">Email</label>
+          <input id="email" type="email" name="email" required>
+        </div>
+
+        <div class="unit xs-1 s-1 push-2 m-1-2 fish">
+          <label for="phone">Phone number <i>(optional)</i></label>
+          <input id="phone" type="tel" name="phone">
+        </div>
       </div>
-    </div>
+      <hr>
+    </fieldset>
+
     <fieldset>
       <legend class="push giga">Address</legend>
       <div class="grid">
@@ -80,21 +81,21 @@
         </div>
         <div class="unit push-2 xs-1 s-1 m-1-2">
           <label for="province">Province</label>
-          <select id="province" name="_select" required>
-            <option value="">Select a province</option>
-            <option value="">Alberta</option>
-            <option value="">British Columbia</option>
-            <option value="">Manitoba</option>
-            <option value="">New Brunswick</option>
-            <option value="">Newfoundland & Labrador</option>
-            <option value="">Northwest Territories</option>
-            <option value="">Nova Scotia</option>
-            <option value="">Nunavut</option>
-            <option value="">Ontario</option>
-            <option value="">Prince Edward Island</option>
-            <option value="">Québec</option>
-            <option value="">Saskatchewan</option>
-            <option value="">Yukon</option>
+          <select id="province" name="_subject" required>
+            <option>Select a province</option>
+            <option>Alberta</option>
+            <option>British Columbia</option>
+            <option>Manitoba</option>
+            <option>New Brunswick</option>
+            <option>Newfoundland & Labrador</option>
+            <option>Northwest Territories</option>
+            <option>Nova Scotia</option>
+            <option>Nunavut</option>
+            <option>Ontario</option>
+            <option>Prince Edward Island</option>
+            <option>Québec</option>
+            <option>Saskatchewan</option>
+            <option>Yukon</option>
           </select>
         </div>
         <div class="unit xs-1 s-1 m-1-2 fish">
@@ -104,34 +105,35 @@
       </div>
       <hr>
     </fieldset>
+
     <fieldset>
       <legend class="giga push-1-2">What activities are you interested in helping with?</legend>
       <div class="grid">
-        <div class="m-1-2 unit xs-1 s-1 fishy push-1-4">
+        <div class="m-1-2 unit xs-1 s-1 fish push-1-4">
           <input type="checkbox" id="digging" name="digging">
           <label for="digging">Digging holes</label>
         </div>
-        <div class="m-1-2 unit xs-1 s-1 fishy push-1-4">
+        <div class="m-1-2 unit xs-1 s-1 fish push-1-4">
           <input type="checkbox" id="dirt" name="dirt">
           <label for="dirt">Getting dirty</label>
         </div>
-        <div class="m-1-2 unit xs-1 s-1 fishy push-1-4">
+        <div class="m-1-2 unit xs-1 s-1 fish push-1-4">
           <input type="checkbox" id="lifting" name="lifting">
           <label for="lifting">Lifting heavy objects</label>
         </div>
-        <div class="m-1-2 unit xs-1 s-1 fishy push-1-4">
+        <div class="m-1-2 unit xs-1 s-1 fish push-1-4">
           <input type="checkbox" id="driving" name="driving">
           <label for="driving">Driving people</label>
         </div>
-        <div class="m-1-2 unit xs-1 s-1 fishy push-1-4">
+        <div class="m-1-2 unit xs-1 s-1 fish push-1-4">
           <input type="checkbox" id="trees" name="trees">
           <label for="trees">Transporting trees</label>
         </div>
-        <div class="m-1-2 unit xs-1 s-1 fishy push-1-4">
+        <div class="m-1-2 unit xs-1 s-1 fish push-1-4">
           <input type="checkbox" id="photos" name="photos">
           <label for="photos">Taking photos</label>
         </div>
-        <div class="m-1-2 unit xs-1 s-1 fishy push-1-4">
+        <div class="m-1-2 unit xs-1 s-1 fish push-1-4">
           <input type="checkbox" id="publishing" name="publishing">
           <label for="publishing">Online publishing</label>
         </div>
@@ -185,21 +187,26 @@
       </div>
     </fieldset>
     <hr class="push-2">
+
     <fieldset class="push-1-2 pad-t">
       <legend class="tera push-1-2">Do you have a valid driver’s license?</legend>
+
       <input type="radio" id="license-yes" name="license">
       <label for="license-yes">Yes</label>
+
       <input type="radio" id="license-no" name="license">
       <label for="license-no">No</label>
     </fieldset>
-    <fieldset class="push">
+
+    <fieldset class="push-2">
       <legend class="tera push-1-2">Do you have a pick-up truck you’d be willing to use?</legend>
       <input type="radio" id="truck-yes" name="truck">
       <label for="truck-yes">Yes</label>
       <input type="radio" id="truck-no" name="truck">
       <label for="truck-no">No</label>
     </fieldset>
-    <fieldset class="push">
+
+    <fieldset class="push-2">
       <legend class="tera push-1-2">Do you have up-to-date first-aid certification?</legend>
       <input type="radio" id="first-aid-yes" name="first-aid">
       <label for="first-aid-yes">Yes</label>
@@ -207,6 +214,7 @@
       <label for="first-aid-no">No</label>
     </fieldset>
     <hr>
+
     <div class="push-2 pad-t">
       <label class="tera push" for="comments">Please let us know any comments or questions you may have.<i> (optional)</i></label>
       <textarea class="pad-b island-2" id="comments" name="text" required></textarea>
@@ -216,9 +224,11 @@
       <button type="submit" class="btn center-content">Apply</button>
       <input type="hidden" name="_subject" value="Request to join the mission">
     </div>
+
   </form>
   <footer class="pad-t pad-b-1-2 gutter-1-2">
     © Tree Hugger International Organization
   </footer>
+
 </body>
 </html>
