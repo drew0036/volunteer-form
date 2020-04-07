@@ -10,3 +10,15 @@ header, footer {
 input {
   border-color: #6e8c62;
 }
+
+i {
+  color: #70ad55;
+}
+
+hr {
+  border-color: #70ad55;
+}
+
+fieldset {
+  border: 0;
+}

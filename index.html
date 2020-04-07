@@ -8,11 +8,11 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="island">
-    <h1 class="push-1-4">Apply to be a tree planter</h1>
+  <header class="island-1-2">
+    <h1 class="peta push-1-4">Apply to be a tree planter</h1>
     <p class="push-0">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </header>
   <section>
@@ -20,7 +20,7 @@
     <div class="grid island">
       <div class="unit">
         <fieldset>
-          <legend class="push">Personal details</legend>
+          <legend class="push bold mega">Personal details</legend>
           <div class="unit push xs-1">
             <label for="name">Full name</label>
             <input id="name" name="name" required>
@@ -56,14 +56,15 @@
             <input id="email" type="email" name="email" required>
           </div>
           <div class="unit push xs-1">
-            <label for="phone">Phone number <i>(Optional)</i></label>
+            <label for="phone">Phone number <i>(optional)</i></label>
             <input id="phone" type="tel" name="phone">
           </div>
         </fieldset>
       </div>
       <div class="unit">
+        <hr>
         <fieldset>
-          <legend>Address</legend>
+          <legend class="bold mega no-border">Address</legend>
           <div class="unit push xs-1">
             <label for="street">Street address</label>
             <input id="street" name="street" required>
@@ -96,11 +97,12 @@
             <input id="postal" name="postal" required>
           </div>
         </fieldset>
+        <hr>
         <div class="unit">
           <hr>
         </div>
         <fieldset>
-          <legend>What activities are you interested in helping with?</legend>
+          <legend class="bold mega">What activities are you interested in helping with?</legend>
           <div class="unit push xs-1 s-1 m-1 l-1">
             <div>
               <input type="checkbox" id="digging" name="digging">
@@ -139,7 +141,7 @@
       </div>
       <div class="unit push">
         <fieldset>
-          <legend>Do you have any experience with the following?</legend>
+          <legend class="bold mega">Do you have any experience with the following?</legend>
           <div>
             <input type="checkbox" id="shovels" name="shovels">
             <label for="shovels">Shovels</label>
@@ -181,40 +183,43 @@
             <label for="speaking">Speaking to groups</label>
           </div>
         </fieldset>
+        <hr>
+      </div>
+      <hr>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <fieldset>
+          <legend class="bold">Do you have a valid driver’s license?</legend>
+          <input type="radio" id="license-yes" name="license">
+          <label for="license-yes">Yes</label>
+          <input type="radio" id="license-no" name="license">
+          <label for="license-no">No</label>
+        </fieldset>
+        <fieldset>
+          <legend class="bold">Do you have a pick-up truck you’d be willing to use?</legend>
+          <input type="radio" id="truck-yes" name="truck">
+          <label for="truck-yes">Yes</label>
+          <input type="radio" id="truck-no" name="truck">
+          <label for="truck-no">No</label>
+        </fieldset>
+        <fieldset>
+          <legend class="bold">Do you have up-to-date first-aid certification?</legend>
+          <input type="radio" id="first-aid-yes" name="first-aid">
+          <label for="first-aid-yes">Yes</label>
+          <input type="radio" id="first-aid-no" name="first-aid">
+          <label for="first-aid-no">No</label>
+        </fieldset>
       </div>
       <div class="unit">
-        <fieldset>
-          <legend>Do you have a valid driver’s license?</legend>
-            <input type="radio" id="license-yes" name="license">
-            <label for="license-yes">Yes</label>
-            <input type="radio" id="license-no" name="license">
-            <label for="license-no">No</label>
-        </fieldset>
-        <fieldset>
-          <legend>Do you have a pick-up truck you’d be willing to use?</legend>
-            <input type="radio" id="truck-yes" name="truck">
-            <label for="truck-yes">Yes</label>
-            <input type="radio" id="truck-no" name="truck">
-            <label for="truck-no">No</label>
-        </fieldset>
-        <fieldset>
-          <legend>Do you have up-to-date first-aid certification?</legend>
-            <input type="radio" id="first-aid-yes" name="first-aid">
-            <label for="first-aid-yes">Yes</label>
-            <input type="radio" id="first-aid-no" name="first-aid">
-            <label for="first-aid-no">No</label>
-        </fieldset>
-      </div>
-      <div class="unit push">
-        <fieldset>
+        <fieldset class="push xs-1 s-1 m-1 l-1">
           <legend></legend>
           <div>
-            <label for="comments">Please let us know any comments or questions you may have.</label>
+            <hr>
+            <label class="bold mega" for="comments">Please let us know any comments or questions you may have.<i>(optional)</i></label>
             <textarea id="comments" name="text" required></textarea>
           </div>
         </fieldset>
       </div>
-      <div class="unit push">
+      <div class="unit push xs-1 s-1 m-1 l-1">
         <button class="btn btn-light mega" type="submit">Apply</button>
       </div>
     </div>
