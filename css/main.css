@@ -30,3 +30,17 @@ fieldset {
 [type="checkbox"] + label::before {
   border-color: #6e8c62;
 }
+
+textarea {
+  border-color: #6e8c62;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
+
+.btn:hover {
+  background-color: #70ad55;
+  border-color: #70ad55;
+}
